@@ -1,0 +1,20 @@
+:root {
+  --bs-primary-text-emphasis: #052c65;
+}
+
+.bgc-header {
+  background-color: var(--bs-primary-text-emphasis);
+}
+
+/*DEBUG*/
+header {
+  heigth: 90px;
+}
+
+.text-header {
+  color: white;
+}
+
+.fa-bars {
+  color: white;
+}
