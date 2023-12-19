@@ -27,7 +27,12 @@
           class="col-12 d-flex justify-content-between align-items-center bgc-header"
         >
           <h2 class="text-header">START BOOTSTRAP</h2>
-          <a href="#"><i class="fas fa-bars fa-2x"></i></a>
+          <div class="links">
+           <a href="#" class="header-link">PORTFOLIO</a>
+           <a href="#" class="header-link">ABOUT</a>
+           <a href="#" class="header-link">CONTACT</a>
+           <a href="#"><i class="fas fa-bars fa-2x"></i></a>
+          </div>
         </div>
       </div>
     </header>
@@ -38,7 +43,16 @@
      <div class="container-fluid">
       <div class="row">
         <div class="col">
-          
+         <div class="content-img">
+          <img src="./img/avatar.svg" alt="" class="jumbotron-img">
+         </div>
+         <h1 class="jumbotron-title">START BOOTSTRAP</h1>
+         <div class="layer">
+          <div class="about-bar"></div>
+          <i class="fas fa-star star-about"></i>
+          <div class="about-bar"></div>
+         </div>
+         <div class="jumbotron-title text">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div> 
         </div>
     </section>
    <!--Fine Jumbotron-->
@@ -56,42 +70,42 @@
         <div class="col-sm-12 col-md-6 col-lg-4">
          <div class="card my-2">
           <div class="contenuto">
-
+           <img src="./img/cabin.png" alt="">
           </div>
          </div> 
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="card my-2">
            <div class="contenuto">
-
+            <img src="./img/cake.png" alt="">
            </div>
           </div>    
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="card my-2">
             <div class="contenuto">
-
+             <img src="./img/circus.png" alt="">
             </div>
           </div>   
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="card my-2">
             <div class="contenuto">
-
+             <img src="./img/game.png" alt="">
             </div>
           </div>  
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="card my-2">
             <div class="contenuto">
-
+             <img src="./img/safe.png" alt="">
             </div>
           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="card my-2">
             <div class="contenuto">
-
+             <img src="./img/submarine.png" alt="">
             </div>
           </div>
         </div>
@@ -108,15 +122,21 @@
       <i class="fas fa-star star-about"></i>
       <div class="about-bar"></div>
      </div> 
-     <div class="container-fluid">
+     <div class="container-md">
       <div class="row">
-       <div class="col-sm-12 col-md-6 my-2">
-        <div class="cont"></div>
+       <div class="col-sm-12 col-md-5 my-2 mx-auto">
+        <div class="cont">
+         <p class="about-par">Freelancer is a free bootstrap theme created by Start Bootstrap.The download includes the complete source files including HTML,CSS and JavaScript as well as optional LESS stylesheets for easy customization</p>  
+        </div>
        </div>
-       <div class="col-sm-12 col-md-6 my-2">
-        <div class="cont"></div>
+       <div class="col-sm-12 col-md-5 my-2 mx-auto">
+        <div class="cont">
+          <p class="about-par">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is a perfect starting point!</p>  
+         </div>
        </div>
-       <div class="col-12"> 
+       <div class="download">
+        <button class="bt-download"><i class="fas fa-download"></i>Download</button>
+       </div>
       </div>
      </div> 
     </section>
@@ -130,25 +150,37 @@
       <i class="fas fa-star"></i>
       <div class="bar"></div>
      </div>
+     <div class="container-md">
+      <div class="content-contact">
+       <h5 class="data">Name</h5>
+       <div class="bar-content"></div>
+       <h5 class="data">Email</h5>
+       <div class="bar-content"></div>
+       <h5 class="data">Phone Number</h5>
+       <div class="bar-content"></div>
+       <h5 class="message">Message</h5>
+       <div class="bar-content"></div>
+       <button class="send">Send</button>
+      </div>
+     </div>
 
     </section>
   <!--Fine Contact Me-->
   
   <!--Inizio Location-->
     <section class="location">
-     <div class="container-fluid">
-      <div class="row flex-sm-column">
-       <div class="col-sm-12">
-        <div class="card m-auto my-2">
+     <div class="container-md">
+      <div class="row">
+       <div class="col-sm-12 col-md-4">
+        
          <div class="info">
           <h4 class="text-location">LOCATION</h4>
           <div class="text-location">2215 John Daniel Drive Clark,MO</div>
           <div class="text-location">54243</div>
          </div>  
-        </div>
+        
        </div>
-       <div class="col-sm-12">
-        <div class="card m-auto my-2">
+       <div class="col-sm-12 col-md-4">
           <div class="info">
            <h4 class="text-location">AROUND THE WEB</h4>
            <div class="text-location">
@@ -159,19 +191,23 @@
            </div>
            
           </div>
-        </div>
+        
        </div>
-       <div class="col-sm-12">
-        <div class="card m-auto my-2">
-          <div class="info"></div>
-        </div>
+       <div class="col-sm-12 col-md-4">
+        
+          <div class="info">
+           <h4 class="text-location">ABOUT FREELANCER</h4>
+           <div class="text-location">Freelance is a free to use,open source Bootstrap theme created by<span class="start-bootstrap">Start Bootstrap</span></div>
+           
+          </div>
+        
        </div> 
       </div>
      </div>
     </section>
   <!--Inizio Footer--> 
     <footer class="footer">
-
+       <span class="foot-text">Copyright<i class="far fa-copyright"></i>your website 2019</span>
     </footer> 
 
 
